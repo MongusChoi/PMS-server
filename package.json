@@ -1,0 +1,19 @@
+{
+  "name": "pms-server",
+  "version": "1.0.0",
+  "description": "PMS is Personal Management System. It's my toy project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MongusChoi/PMS-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MongusChoi/PMS-server/issues"
+  },
+  "homepage": "https://github.com/MongusChoi/PMS-server#readme"
+}
