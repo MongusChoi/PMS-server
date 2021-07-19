@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MongusChoi/PMS-server/issues"
   },
-  "homepage": "https://github.com/MongusChoi/PMS-server#readme"
+  "homepage": "https://github.com/MongusChoi/PMS-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
