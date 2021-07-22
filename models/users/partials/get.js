@@ -46,5 +46,22 @@ module.exports = {
     const count = await userColl.countDocuments(filter)
 
     return { list, count }
+  },
+
+  GetItem: async (param = {}) => {
+    const { _id } = param
+
+    const user = await userColl.findOne({ _id: new ObjectId(_id) }, {
+      projection: {
+        name: true,
+        position: true,
+        part: true,
+        email: true,
+        joinDate: true,
+        ip: true
+      }
+    })
+
+    return user
   }
 }
