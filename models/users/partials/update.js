@@ -30,6 +30,6 @@ module.exports = {
     if (joinDate) updateQuery.$set.joinDate = joinDate
     if (ip) updateQuery.$set.ip = ip
 
-    return await userColl.updateOne({ _id: ObjectId(_id) }, updateQuery)
+    return await userColl.updateOne({ _id: new ObjectId(_id) }, updateQuery)
   }
 }
