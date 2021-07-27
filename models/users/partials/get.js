@@ -6,6 +6,7 @@ module.exports = {
   GetList: async (param = {}, options = {}) => {
     const {
       _id,
+      id,
       name,
       position,
       part,
@@ -18,6 +19,7 @@ module.exports = {
     const filter = {}
 
     if (_id) filter._id = new ObjectId(_id)
+    if (id) filter.id = id
     if (name) filter.name = name
     if (position) filter.position = position
     if (part) filter.part = part
