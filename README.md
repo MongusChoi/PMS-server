@@ -1,2 +1,2 @@
 # PMS-server
-PMS is Personal Management System. It's my toy project.
+PMS is Personnel Management System. It's my toy project.
