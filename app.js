@@ -20,6 +20,7 @@ server.listen(port, function () {
 // DB connect
 mongoose.connect(global.MONGO_CONNECTION_STRING, { 
   useNewUrlParser: true, 
+  useUnifiedTopology: true,
   autoReconnect: true, 
   reconnectTries: Number.MAX_VALUE, 
   reconnectInterval: 1000, 
